@@ -127,7 +127,7 @@
                       
                       <li class="menu__item">
                         
-                        <a class="menu__link" href="#">
+                        <a class="menu__link" href="./contact.html">
                           Контакты
                         </a>
                         
@@ -295,7 +295,7 @@
                       <a href="./faq.html" class="site-footer__link">FAQ</a>
                     </li>
                     <li class="site-footer__item2">
-                      <a href="#" class="site-footer__link">Контакты
+                      <a href="./contact.html" class="site-footer__link">Контакты
                       </a>
                     </li>
                   </ul>
@@ -339,6 +339,50 @@
         </div>
       </footer>
       <!-- SITE FOOTER END -->
-      
+      <div class="modal">
+        <div class="modal-window">
+            <div class="modal-window-sign-box">
+                <h3 class="modal-window-sign-text">Авторизация:</h3>
+                <a
+                class="modal-window-sign-link"
+                href="https://www.google.ru/"
+                target="_blank"
+                >Войти через Google</a
+                >
+                <a
+                class="modal-window-sign-link"
+                href="https://https://www.facebook.com//"
+                target="_blank"
+                >Войти через Facebook</a
+                >
+            </div>
+            <form
+            class="modal-form"
+            action="https://echo.htmlacademy.ru/courses"
+            method="post"
+            autocomplete="off"
+            >
+            <h2 class="form-title">Задать вопрос</h2>
+            <input
+            class="form-input"
+            type="text"
+            name="user_name"
+            placeholder="Ваше имя"
+            aria-label="Enter your name"
+            />
+            <textarea
+            class="form-text-area"
+            type+="text"
+            name="user_text"
+            minlength="1"
+            maxlength="100"
+            placeholder="Опишите Ваш вопрос."
+            ></textarea>
+            <button class="modal-button" type="submit">Отправить</button>
+            <a class="modal-close"></a>
+        </form>
+    </div>
+    </div>
+    <script src="js/main.js"></script>
 </body>
 </html>

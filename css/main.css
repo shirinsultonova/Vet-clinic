@@ -2206,3 +2206,274 @@ padding-top: 16px;
 }
 
 /* question section finish */
+
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-open {
+  display: block;
+}
+
+.modal-window {
+  position: relative;
+  margin-top: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 70px 50px 140px 70px;
+  width: 850px;
+  height: 648px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  background-color: #ffbd54;
+  background-image: url("..//images/bg-hand.png");
+  -webkit-animation-name: animation;
+          animation-name: animation;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.modal-window-sign-box {
+  position: relative;
+  margin-right: 120px;
+}
+.modal-window-sign-box::after {
+  position: absolute;
+  top: 231px;
+  right: -60px;
+  content: "";
+  display: block;
+  width: 350px;
+  height: 350px;
+  background-image: url("..//images/kisspng-dog.png");
+  background-repeat: no-repeat;
+}
+
+.modal-window-sign-text {
+  margin: 0;
+  margin-bottom: 21px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333333;
+}
+.modal-window-sign-link {
+  margin-bottom: 21px;
+  width: 238px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 35px 15px 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  background: #ffffff;
+  border-radius: 0px;
+  color: #333333;
+  text-decoration: none;
+}
+.modal-window-sign-link:nth-child(2)::before {
+  margin-right: 14px;
+  margin-left: 22px;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("..//images/google.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+.modal-window-sign-link:before {
+  margin-right: 14px;
+  margin-left: 22px;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/fasebook.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+.form-title {
+  margin: 0;
+  margin-bottom: 21px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 54px;
+  color: #333333;
+}
+.form-input {
+  width: 335px;
+  padding: 18px 0px 18px 22px;
+  margin-bottom: 21px;
+  border: none;
+}
+.form-text-area {
+  margin-bottom: 27px;
+  width: 335px;
+  padding: 16px 0px 127px 22px;
+  resize: none;
+  border: none;
+}
+.modal-button {
+  width: 193px;
+  padding: 12px 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  background: #000000;
+  border-radius: 0px;
+  background: #000000;
+  border-radius: 0px;
+  color: #ffffff;
+  display: block;
+}
+.modal-close {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/close.svg");
+  background-repeat: no-repeat;
+}
+@-webkit-keyframes animation {
+  0% {
+    top: -700px;
+  }
+
+  50% {
+  }
+  100% {
+    top: -150px;
+  }
+}
+@keyframes animation {
+  0% {
+    top: -700px;
+  }
+
+  50% {
+  }
+  100% {
+    top: -150px;
+  }
+}
+
+/* contact section start */
+.contact-hero {
+  background-image: url(../images/Group.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 568px) calc(50% - 6px);
+  padding-top: 118px;
+}
+.contact-banner {
+  margin-left: 100px;
+  width: 447px;
+}
+.contact-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 117px 0 0 0;
+  margin-left: 100px;
+  margin-bottom: 165px;
+}
+.contact-list-item:not(:last-child) {
+  margin-right: 118px;
+}
+.contact-list-item .footer-addres::before{
+  display: none;
+}
+.contact-list-item .footer-data__list::before{
+  display: none;
+}
+.contact-list-item .footer-number__list::before{
+  display: none;
+}
+.contact-list-item::before {
+  content: "";
+  display: block;
+  width: 76px;
+  height: 76px;
+  background-image: url("../images/location.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.contact-intro .container-fluid {
+  display: block;
+}
+.contact-list-item:nth-child(2):before {
+  background-image: url("../images/calendar.svg");
+}
+.contact-list-item:nth-child(3):before {
+  background-image: url("../images/phone-icon.svg");
+}
+.contact-hero {
+  background-image: url("../images/Group.png");
+  background-repeat:no-repeat;
+  background-position:calc(50% + 568px) calc(50% - 6px); 
+}
+.intro-inner-top {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  background-image: url("../images/loop.png");
+  background-repeat:no-repeat;
+  background-position:calc(50% + 200px) calc(50% - 0px); 
+}
+.contact-intro {
+  padding-bottom: 206px;
+}
+.intro-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: var(--main-text-color);
+  margin-left: 600px;
+  margin-bottom: 60px;
+}
+.intro-img {
+  position: relative;
+  height: 396px;
+}
+.intro-img img {
+  position: absolute;
+  left: 30px;
+  top: 100px;
+}
+.intro-inner-bottom {
+  display: flex;
+  height: 466px;
+  
+}
+.carta {
+  width: 100%;
+}
+/* contact section finish */
+
+.site-footer__iniitem:nth-child(2){
+  margin: 9px 0;
+}
+.footer-data__list-item{
+  margin-bottom: 12px;
+}
