@@ -19,6 +19,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 
 /* Fonts */
@@ -2542,6 +2549,13 @@ padding-top: 16px;
   padding-bottom: 309px;
   width: 411px;
 }
+.articles-box__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: var(--main-text-color);
+  margin-bottom: 32px;
+}
 .about-slider{
   padding-top: 25px;
   padding-bottom: 145px;
@@ -2688,3 +2702,212 @@ display: flex;
   padding-top: 145px;
 }
 /* about open finish */
+
+.articles-box {
+  margin-left: 100px;
+  width: 447px;
+}
+.articles{
+  padding-top: 118px;
+  padding-bottom: 132px;
+  background-image: url("../images/kisspng-bengal-cat-siberian-cat-sphynx-cat-somali-cat-siam-5ae4b49e3e6412\ 1.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 305px) calc(50% - 6px);
+}
+.dogs{
+  padding-bottom: 150px;
+}
+.dogs-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 126px;
+  background-color: #ffff;
+}
+.dogs-box__wrap {
+  padding: 68px 110px 68px 82px;
+}
+.dogs-box__link-box{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 35px;
+}
+.dogs-box__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+.articles-box__text{
+  font-family: 'Futura PT';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--text-color94);
+  
+}
+.dogs-box__link {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #3D9CEA;
+}
+.dogs-box__time {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #949494;
+}
+.dogs-box__text-box{
+  width: 517px;
+}
+.dogs-box__title-box{
+  width: 325px;
+}
+.dogs-box__title {
+  margin: 0px 0px 20px 0px;
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 700;
+  color: #333333;
+}
+.dogs-box__text {
+  margin: 0px 0px 48px 0px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #949494;
+}
+.dogs-box__link-learn,
+.dogs-list__link  {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #333333;
+}
+.dogs-box__link-learn:hover,
+.dogs-list__link:hover  { 
+  color: var(--color-ffbd54);
+}
+.dogs-box__link-learn:active,
+.dogs-list__link:active  { 
+  color: var(--main-text-color);
+  opacity: 0.6;
+}
+.dogs-box__link-learn::before,
+.dogs-list__link::before{
+  width: 23px;
+  height: 21px;
+  margin-right: 5px;
+  background-image: url("../images/hand.svg");
+  background-size: contain;
+  content: "";
+}
+
+.dogs-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0px 0px 52px 0px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+.dogs-list__item {
+  width: 305px;
+  margin-right: 26px;
+  margin-bottom: 60px;
+  background-color: #FEFEFE;
+  border: 1px solid #E4E4E2;
+  border-radius: 5px;
+}
+.dogs-list__item:nth-child(4){
+  margin-right: 0px;
+}
+.dogs-list__item:nth-child(8){
+  margin-right: 0px;
+}
+.dogs-list__box {
+  margin: 21px 22px 35px 30px;
+}
+.dogs-list__time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #949494;
+}
+.list__title-box {
+  width: 201px;
+}
+.dogs-list__title {
+  margin: 0px 0px 10px 0px;
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #000000;
+}
+.dogs-list__text {
+  margin: 0px 0px 34px 0px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #949494;
+}
+.dogs-btn{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  padding: 16px 40px;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: #333333;
+  border-radius: 3px;
+  border: none;
+}
+.dogs-btn:hover{
+  color: #333333;
+  background-color: #FFBD54;
+  border-color: transparent;
+  border-radius: 3px;
+}
+.dogs-btn:active{
+  opacity: 0.6;
+}
+.dogs-btn::before{
+  width: 19px;
+  height: 16px;
+  margin-right: 6px;
+  background-image: url("../images/refresh-icon.svg");
+  content: "";
+}
