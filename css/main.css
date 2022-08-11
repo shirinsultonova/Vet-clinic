@@ -2829,6 +2829,12 @@ display: flex;
   padding-left: 0px;
   list-style-type: none;
 }
+.dogs-list__item :hover{
+  opacity: 0.8;
+}
+.dogs-list__item :active{
+  opacity: 0.6;
+}
 .dogs-list__item {
   width: 305px;
   margin-right: 26px;
