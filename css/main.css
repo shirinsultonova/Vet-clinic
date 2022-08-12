@@ -3318,6 +3318,6 @@ display: flex;
 
 .services-open-article__img{
   position: absolute;
-  top: -50px;
+  top: -45px;
   left: calc(50% - 90px);
 }
